@@ -14,7 +14,6 @@
     pointer-events auto
 
 .nv:target
-  // z-index 2
   opacity 1
   height 100%
   pointer-events auto
@@ -23,11 +22,13 @@
 
 .nv-open
   position absolute
-  top 0.8em
+  top 0.6em
   right 1em
   color black
   text-decoration none
   background transparent
+  border 1px solid $greenMint
+  padding 0.3em 0.8em 0.4em
   transition color 0.6s
   &:active
     color white
